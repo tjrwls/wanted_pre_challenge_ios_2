@@ -29,12 +29,19 @@
                             <constraint firstAttribute="width" constant="125" id="gfp-v1-KGp"/>
                         </constraints>
                     </imageView>
+                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="JIH-tM-56F">
+                        <rect key="frame" x="135" y="48" width="187" height="4"/>
+                    </progressView>
                 </subviews>
                 <constraints>
+                    <constraint firstAttribute="bottom" secondItem="JIH-tM-56F" secondAttribute="bottom" constant="48" id="67w-r8-iIO"/>
+                    <constraint firstItem="JIH-tM-56F" firstAttribute="leading" secondItem="4Vf-Tk-WES" secondAttribute="trailing" id="ARi-3c-pbV"/>
                     <constraint firstItem="4Vf-Tk-WES" firstAttribute="top" secondItem="2wU-CI-lco" secondAttribute="top" constant="10" id="DXi-ve-f7C"/>
                     <constraint firstAttribute="bottom" secondItem="YWv-Ta-UaR" secondAttribute="bottom" constant="30" id="Qv4-FH-CSe"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="JIH-tM-56F" secondAttribute="trailing" constant="51" id="T94-Zu-Y23"/>
                     <constraint firstAttribute="trailing" secondItem="YWv-Ta-UaR" secondAttribute="trailing" constant="10" id="Zn5-IJ-mwa"/>
                     <constraint firstItem="YWv-Ta-UaR" firstAttribute="top" secondItem="2wU-CI-lco" secondAttribute="top" constant="30" id="dls-My-7wg"/>
+                    <constraint firstItem="JIH-tM-56F" firstAttribute="top" secondItem="2wU-CI-lco" secondAttribute="top" constant="48" id="mWG-fx-Vg4"/>
                     <constraint firstAttribute="bottom" secondItem="4Vf-Tk-WES" secondAttribute="bottom" constant="10" id="rM3-8c-Icl"/>
                 </constraints>
             </tableViewCellContentView>
